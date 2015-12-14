@@ -1,5 +1,5 @@
 #include "pingchat_core.h"
-#include <QApplication>
+#include <QtWidgets/QApplication>
 
 int main(int argc, char *argv[])
 {
