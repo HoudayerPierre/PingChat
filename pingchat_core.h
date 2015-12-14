@@ -1,7 +1,7 @@
 #ifndef PINGCHAT_CORE_H
 #define PINGCHAT_CORE_H
 
-#include <QMainWindow>
+#include <QtWidgets/QMainWindow>
 
 namespace Ui {
     class PingChat_Core;
