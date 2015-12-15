@@ -1,5 +1,5 @@
 #include "pingchat_core.h"
-//#include "ui_pingchat_core.h"
+#include "ui_pingchat_core.h"
 
 PingChat_Core::PingChat_Core(QWidget *parent) :
     QMainWindow(parent),
