@@ -15,10 +15,3 @@ install:
   
 script:
 # - ./Application
-
- notifications:
-   email:
-     - Pierre.Houdayer.Etu@univ-lemans.fr
-     - Damien.Guedon.Etu@univ-lemans.fr
-   on_success: change
-   on_failure: always
