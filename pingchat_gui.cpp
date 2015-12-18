@@ -1,14 +1,14 @@
-#include "pingchat_core.h"
-#include "ui_pingchat_core.h"
+#include "pingchat_gui.h"
+#include "ui_pingchat_gui.h"
 
-PingChat_Core::PingChat_Core(QWidget *parent) :
+PingChat_Gui::PingChat_Gui(QWidget *parent) :
     QMainWindow(parent),
-    ui(new Ui::PingChat_Core)
+    ui(new Ui::PingChat_Gui)
 {
     ui->setupUi(this);
 }
 
-PingChat_Core::~PingChat_Core()
+PingChat_Gui::~PingChat_Gui()
 {
     delete ui;
 }

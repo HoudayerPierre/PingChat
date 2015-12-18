@@ -13,11 +13,16 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        pingchat_core.cpp \
-    setting.cpp
+    setting.cpp \
+    client.cpp \
+    pingchat_gui.cpp
 
-HEADERS  += pingchat_core.h \
-    setting.h
+HEADERS  += \
+    setting.h \
+    client.h \
+    pingchat_gui.h
 
-FORMS    += pingchat_core.ui \
-    setting.ui
+
+FORMS    += \
+    setting.ui \
+    pingchat_gui.ui

@@ -11,13 +11,13 @@ Q_OBJECT
     public:
         Client(QObject * parent = 0);
 
-        QString getPseudo() const;
+        QString pseudo() const;
+
+
         void setPseudo(const QString &pseudo);
 
-
-
 private:
-        //nom de l'utilisateur
+        //nom
         QString m_pseudo;
 
         //socket

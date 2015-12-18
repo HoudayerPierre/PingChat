@@ -1,18 +1,18 @@
-#ifndef PINGCHAT_CORE_H
-#define PINGCHAT_CORE_H
+#ifndef PingChat_Gui_H
+#define PingChat_Gui_H
 
 #include <QtWidgets/QMainWindow>
 
 namespace Ui {
-    class PingChat_Core;
+    class PingChat_Gui;
 }
 
 /*!
- * \file pingchat_core.h
+ * \file pingchat_gui.h
  *
- * \class PingChat_Core
+ * \class PingChat_Gui
  *
- * \brief PingChat_Core core of PingChat application
+ * \brief PingChat_Gui core of PingChat application
  *
  * \author GUEDON Damien and HOUDAYER Pierre
  *
@@ -21,21 +21,21 @@ namespace Ui {
  * \date 14 Dec 2015
  *
  */
-class PingChat_Core : public QMainWindow
+class PingChat_Gui : public QMainWindow
 {
     Q_OBJECT
 
     public:
         /*!
-         * \fn bool PingChat_Core(QWidget *parent = 0)
+         * \fn bool PingChat_Gui(QWidget *parent = 0)
          *
-         * \brief Class builder of PingChat_Core.
+         * \brief Class builder of PingChat_Gui.
          */
-        explicit PingChat_Core(QWidget *parent = 0);
-        ~PingChat_Core();
+        explicit PingChat_Gui(QWidget *parent = 0);
+        ~PingChat_Gui();
 
     private:
-        Ui::PingChat_Core *ui;
+        Ui::PingChat_Gui *ui;
 };
 
-#endif // PINGCHAT_CORE_H
+#endif // PingChat_Gui_H

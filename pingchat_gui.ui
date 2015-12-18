@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>PingChat_Core</class>
- <widget class="QMainWindow" name="PingChat_Core">
+ <class>PingChat_Gui</class>
+ <widget class="QMainWindow" name="PingChat_Gui">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -325,7 +325,7 @@ background-color:white;
   <connection>
    <sender>actionQuitter</sender>
    <signal>triggered()</signal>
-   <receiver>PingChat_Core</receiver>
+   <receiver>PingChat_Gui</receiver>
    <slot>close()</slot>
    <hints>
     <hint type="sourcelabel">
