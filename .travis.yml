@@ -39,9 +39,9 @@ before_script:
 script:
   - cd ${TRAVIS_BUILD_DIR}
   - cmake .
+  - qmake
   - make check
   - make install
-  - qmake
   - make
   - ctest --verbose
 # - ./RunApplication
