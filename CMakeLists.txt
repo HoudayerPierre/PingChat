@@ -26,8 +26,6 @@ file(
 
 add_executable(
 
-        PingChat_exe
-
         ${source_files}
 
 )
