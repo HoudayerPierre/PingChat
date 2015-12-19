@@ -12,17 +12,17 @@ TARGET = PingChat
 TEMPLATE = app
 
 
-SOURCES += main.cpp\
-    setting.cpp \
-    client.cpp \
-    pingchat_gui.cpp
+SOURCES += src/main.cpp\
+    src/setting.cpp \
+    src/client.cpp \
+    src/pingchat_gui.cpp
 
 HEADERS  += \
-    setting.h \
-    client.h \
-    pingchat_gui.h
+    src/setting.h \
+    src/client.h \
+    src/pingchat_gui.h
 
 
 FORMS    += \
-    setting.ui \
-    pingchat_gui.ui
+    src/setting.ui \
+    src/pingchat_gui.ui
