@@ -5,6 +5,6 @@
 [![Coverage Status](https://coveralls.io/repos/HoudayerPierre/PingChat/badge.svg?branch=master&service=github)](https://coveralls.io/github/HoudayerPierre/PingChat?branch=master)
 [![Code Health](https://landscape.io/github/HoudayerPierre/PingChat/master/landscape.svg?style=flat)](https://landscape.io/github/HoudayerPierre/PingChat/master)
 
-https://codeship.com/projects/3a29277dae8417402e023c0f9134bdc1fd6c845e/status?branch=master
+[![CodeShip](https://codeship.com/projects/3a29277dae8417402e023c0f9134bdc1fd6c845e/status?branch=master)](https://codeship.com/github/HoudayerPierre/PingChat/master)
 
 Chat application on qt in c++.
