@@ -38,7 +38,10 @@ before_script:
 
 script:
   - cd ${TRAVIS_BUILD_DIR}
-  - cmake .
+  #- cmake .
+  - ./configure [--prefix=/path]
+  - make check
+  - make install
   - qmake
   - make
   - ctest --verbose
