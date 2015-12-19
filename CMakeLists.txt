@@ -16,7 +16,7 @@ file(
 
         source_files
 
-        .*
+        src/*
 
 )
 
