@@ -12,7 +12,7 @@ namespace Ui {
  *
  * \class PingChat_Gui
  *
- * \brief PingChat_Gui core of PingChat application
+ * \brief PingChat_Gui main user interface of PingChat application.
  *
  * \author GUEDON Damien and HOUDAYER Pierre
  *
