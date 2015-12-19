@@ -5,16 +5,19 @@ compiler: gcc
 before_install:
   - sudo add-apt-repository --yes ppa:ubuntu-sdk-team/ppa
   - sudo apt-get update -qq
-  - sudo apt-get install gem libgemplugin-ruby
-  - sudo gem install bundler
+  - sudo apt-get install pip gcov
+  - sudo pip install --user cpp-coveralls
   - sudo apt-get install cmake
   - sudo apt-get install qtbase5-dev qtdeclarative5-dev libqt5webkit5-dev libsqlite3-dev
   - sudo apt-get install qt5-default qttools5-dev-tools
 
 install:
   - qmake
-  #- make
+  - make
   
 script:
-  - make
-# - ./Application
+  - ./configure --enable-gcov && make && make check
+# - ./RunApplication
+
+after_success:
+  - coveralls --exclude lib --exclude tests --gcov-options '\-lp'
